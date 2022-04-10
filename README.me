@@ -1,0 +1,205 @@
+### Project Structure
+providers/orgeo
+
+provider.rb # Abstract class with methods
+api.rb # Abstract class with methods
+parse.rb # Abstract class with methods
+
+
+### HOW use
+ruby bin/alma.rb 
+
+
+### Features
+* Add pagination for events
+* Add ractors for get event
+
+
+* Add implementation fibers for each providers on collect data
+* Packing script to gem
+
+
+### Orgeo regions
+<option value="">Регион - Все</option>
+
+<option value="cfo">Центральный округ</option>
+<option value="belgorod">-- Белгородская</option>
+<option value="bryansk">-- Брянская</option>
+<option value="vladimir">-- Владимирская</option>
+<option value="voronezh">-- Воронежская</option>
+<option value="ivanovo">-- Ивановская</option>
+<option value="kaluga">-- Калужская</option>
+<option value="kostroma">-- Костромская</option>
+<option value="kursk">-- Курская</option>
+<option value="lipetsk">-- Липецкая</option>
+<option value="mosobl">-- Московская</option>
+<option value="orel">-- Орловская</option>
+<option value="ryazan">-- Рязанская</option>
+<option value="smolensk">-- Смоленская</option>
+<option value="tambov">-- Тамбовская</option>
+<option value="moscow+mosobl">-- Москва и МО</option>
+<option value="moscow">-- Москва</option>
+<option value="tver">-- Тверская</option>
+<option value="tula">-- Тульская</option>
+<option value="yaroslavl">-- Ярославская</option>
+
+<option value="szfo">Северо-Западный округ</option>
+<option value="arhangelsk">-- Архангельская</option>
+<option value="vologda">-- Вологодская</option>
+<option value="kaliningrad">-- Калининградская</option>
+<option value="karel">-- Карелия</option>
+<option value="komi">-- Коми</option>
+<option value="lenobl">-- Ленинградская</option>
+<option value="murmansk">-- Мурманская</option>
+<option value="novgorod">-- Новгородская</option>
+<option value="pskov">-- Псковская</option>
+<option value="spb">-- Санкт-Петербург</option>
+
+<option value="ufo">Южный округ</option>
+<option value="adygeya">-- Адыгея</option>
+<option value="astrahan">-- Астраханская</option>
+<option value="volgograd">-- Волгоградская</option>
+<option value="kuban">-- Краснодарский</option>
+<option value="rostov">-- Ростовская</option>
+<option value="kfo">Крымский округ</option>
+<option value="krym">-- Крым</option>
+<option value="sevastopol">-- Севастополь</option>
+<option value="skfo">Северо-Кавказский округ</option>
+<option value="stavropol">-- Ставропольский</option>
+<option value="pfo">Приволжский округ</option>
+<option value="bashkiriya">-- Башкортостан</option>
+<option value="kirov">-- Кировская</option>
+<option value="mariel">-- Марий Эл</option>
+<option value="mordoviya">-- Мордовия</option>
+<option value="nnov">-- Нижегородская</option>
+<option value="orenburg">-- Оренбургская</option>
+<option value="penza">-- Пензенская</option>
+<option value="perm">-- Пермский</option>
+<option value="samara">-- Самарская</option>
+<option value="saratov">-- Саратовская</option>
+<option value="tatarstan">-- Татарстан</option>
+<option value="udmurtia">-- Удмуртская</option>
+<option value="ulyanovsk">-- Ульяновская</option>
+<option value="chuvashiya">-- Чувашская</option>
+
+<option value="urfo">Уральский округ</option>
+<option value="kurgan">-- Курганская</option>
+<option value="sverdlovsk">-- Свердловская</option>
+<option value="tyumen">-- Тюменская</option>
+<option value="ugra">-- Ханты-Мансийский</option>
+<option value="chel">-- Челябинская</option>
+<option value="yanao">-- Ямало-Ненецкий</option>
+
+<option value="sfo">Сибирский округ</option>
+<option value="altay">-- Алтай</option>
+<option value="altay-kray">-- Алтайский</option>
+<option value="buryatia">-- Бурятия</option>
+<option value="chita">-- Забайкальский</option>
+<option value="irkutsk">-- Иркутская</option>
+<option value="kemerovo">-- Кемеровская</option>
+<option value="krasnoyarsk">-- Красноярский</option>
+<option value="novosibirsk">-- Новосибирская</option>
+<option value="omsk">-- Омская</option>
+<option value="tomsk">-- Томская</option>
+<option value="tyva">-- Тыва</option>
+<option value="hakasiya">-- Хакасия</option>
+
+<option value="dfo">Дальневосточный округ</option>
+<option value="amur">-- Амурская</option>
+<option value="eao">-- Еврейская</option>
+<option value="kamchatka">-- Камчатский</option>
+<option value="primorsky">-- Приморский</option>
+<option value="sakhalin">-- Сахалинская</option>
+<option value="habarovsk">-- Хабаровский</option>
+<option value="chukotka">-- Чукотский</option>
+
+
+### Regions with code
+http://www.statdata.ru/spisok-regionov-rossii-s-kodamy
+Код	Наименование
+22	Алтайский край
+28	Амурская область
+29	Архангельская область
+30	Астраханская область
+31	Белгородская область
+32	Брянская область
+33	Владимирская область
+34	Волгоградская область
+35	Вологодская область
+36	Воронежская область
+77	г. Москва
+79	Еврейская автономная область
+75	Забайкальский край
+37	Ивановская область
+99	Иные территории, включая город и космодром Байконур
+38	Иркутская область
+07	Кабардино-Балкарская Республика
+39	Калининградская область
+40	Калужская область
+41	Камчатский край
+09	Карачаево-Черкесская Республика
+42	Кемеровская область — Кузбасс
+43	Кировская область
+44	Костромская область
+23	Краснодарский край
+24	Красноярский край
+45	Курганская область
+46	Курская область
+47	Ленинградская область
+48	Липецкая область
+49	Магаданская область
+50	Московская область
+51	Мурманская область
+83	Ненецкий автономный округ
+52	Нижегородская область
+53	Новгородская область
+54	Новосибирская область
+55	Омская область
+56	Оренбургская область
+57	Орловская область
+58	Пензенская область
+59	Пермский край
+25	Приморский край
+60	Псковская область
+01	Республика Адыгея (Адыгея)
+04	Республика Алтай
+02	Республика Башкортостан
+03	Республика Бурятия
+05	Республика Дагестан
+06	Республика Ингушетия
+08	Республика Калмыкия
+10	Республика Карелия
+11	Республика Коми
+91	Республика Крым
+12	Республика Марий Эл
+13	Республика Мордовия
+14	Республика Саха (Якутия)
+15	Республика Северная Осетия — Алания
+16	Республика Татарстан (Татарстан)
+17	Республика Тыва
+19	Республика Хакасия
+61	Ростовская область
+62	Рязанская область
+63	Самарская область
+78	Санкт-Петербург
+64	Саратовская область
+65	Сахалинская область
+66	Свердловская область
+92	Севастополь
+67	Смоленская область
+26	Ставропольский край
+68	Тамбовская область
+69	Тверская область
+70	Томская область
+71	Тульская область
+72	Тюменская область
+18	Удмуртская Республика
+73	Ульяновская область
+27	Хабаровский край
+86	Ханты-Мансийский автономный округ — Югра
+74	Челябинская область
+20	Чеченская Республика
+21	Чувашская Республика — Чувашия
+87	Чукотский автономный округ
+89	Ямало-Ненецкий автономный округ
+76	Ярославская область
